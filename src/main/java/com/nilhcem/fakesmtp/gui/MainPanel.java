@@ -141,7 +141,7 @@ public final class MainPanel {
 
 		// Save messages to...
 		mainPanel.add(saveMessages);
-		mainPanel.add(saveMsgTextField.get(), "span, w 230!");
+		mainPanel.add(saveMsgTextField.get(), "span, w 430!");
 
 		// Nb received
 		mainPanel.add(receivedLabel);

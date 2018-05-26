@@ -19,7 +19,7 @@ public enum Configuration {
 	INSTANCE;
 
 	private static final String CONFIG_FILE = "/configuration.properties";
-	private static final String USER_CONFIG_FILE = ".fakeSMTP.properties";
+	private static final String USER_CONFIG_FILE = "/.fakeSMTP/.fakeSMTP.properties";
 	private final Properties config = new Properties();
 
 	/**
